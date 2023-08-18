@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Footer.css";
-import {FaHome,FaPhone,FaMailBulk, FaFacebook, FaTwitter, FaLinkedin} from "react-icons/fa";
+import {FaHome,FaPhone,FaMailBulk, FaTwitter, FaLinkedin, FaGithub} from "react-icons/fa";
 import { NavLink } from 'react-router-dom';
 
 const Footer = () => {
@@ -33,9 +33,10 @@ const Footer = () => {
             I am Niyati.
             </p>
             <div className = "social">
-            <NavLink to="https://www.facebook.com/niyati.jain.944/"><FaFacebook size = {30} style={{color:"#fff",marginRight:" 1rem"}}/></NavLink>
+           
             <NavLink to="https://twitter.com/niyatijain_"><FaTwitter size = {30} style={{color:"#fff",marginRight:" 1rem"}}/></NavLink>
             <NavLink to="https://www.linkedin.com/in/niyati-jain-25293b233/"><FaLinkedin size = {30} style={{color:"#fff",marginRight:" 1rem"}}/></NavLink>
+            <NavLink to="https://github.com/niyatijain1"><FaGithub size = {30} style={{color:"#fff",marginRight:" 1rem"}}/></NavLink>
             </div>
 
         </div>
